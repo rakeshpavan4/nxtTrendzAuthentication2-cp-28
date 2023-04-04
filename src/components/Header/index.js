@@ -8,7 +8,7 @@ const Header = props => {
     const {history} = props
 
     Cookies.remove('jwt_token')
-    history.replace('/Login')
+    history.replace('/login')
   }
   return (
     <nav className="nav-header">
